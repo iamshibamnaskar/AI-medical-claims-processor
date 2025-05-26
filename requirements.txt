@@ -10,3 +10,5 @@ litellm
 langchain_google_genai
 celery
 redis
+fastapi
+python-multipart

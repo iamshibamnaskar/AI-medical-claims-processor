@@ -2,10 +2,11 @@ from crewai import Agent
 from dotenv import load_dotenv
 load_dotenv()
 from crewai.llm import LLM
+import os
 
 llm = LLM(
     model="gemini/gemini-1.5-flash",
-    api_key="AIzaSyDTb6LnfdLNZ8CMlDWA9g83P895ru9B944",
+    api_key=os.getenv("GEMINI_API_KEY"),
     provider="google",
     temperature=0.5,
     verbose=True
