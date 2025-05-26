@@ -1,0 +1,12 @@
+crewai
+langchain
+langchain-google-genai
+google-generativeai
+crewai
+crewai_tools
+load_dotenv
+langchain-huggingface
+litellm
+langchain_google_genai
+celery
+redis
